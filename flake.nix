@@ -1,6 +1,6 @@
 {
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-25.05";
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-25.11";
     hyprland = {
       url = "github:hyprwm/Hyprland?ref=v0.52.1";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -10,12 +10,12 @@
       inputs.hyprland.follows = "hyprland"; # Prevents version mismatch.
     };
     stylix = {
-      url = "github:danth/stylix/release-25.05";
+      url = "github:danth/stylix/release-25.11";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     base16-schemes.url = "github:SenchoPens/base16.nix";
     home-manager = {
-      url = "github:nix-community/home-manager/release-25.05";
+      url = "github:nix-community/home-manager/release-25.11";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     win2k-plymouth.url = "github:Win2K-for-Unix/Win2K-Plymouth";
