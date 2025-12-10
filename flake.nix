@@ -2,7 +2,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-25.11";
     hyprland = {
-      url = "github:hyprwm/Hyprland?ref=v0.52.1";
+      url = "github:hyprwm/Hyprland?ref=v0.52.2";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     hyprland-plugins = {
