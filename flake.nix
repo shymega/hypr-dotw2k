@@ -2,8 +2,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-25.11";
     hyprland = {
-      url = "github:hyprwm/Hyprland?ref=v0.53.1";
-      inputs.nixpkgs.follows = "nixpkgs";
+      url = "github:hyprwm/Hyprland?ref=v0.53.3";
     };
     hyprland-plugins = {
       url = "github:hyprwm/hyprland-plugins";
@@ -23,10 +22,5 @@
 
   outputs = inputs: let
     inherit (inputs) self nixpkgs;
-  in {
-    configs = {};
-    folders = {
-      ags = "${self}/.config/ags";
-    };
-  };
+  in {};
 }
