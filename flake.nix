@@ -2,7 +2,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-25.11";
     hyprland = {
-      url = "github:hyprwm/hyprnix";
+      url = "github:hyprwm/Hyprland?tag=v0.54.2";
     };
     stylix = {
       url = "github:danth/stylix/release-25.11";
